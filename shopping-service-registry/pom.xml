@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<artifactId>shopping-service-registry</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Shopping Service Registry</description>
+
+	<parent>
+		<groupId>com.github.vskrahul</groupId>
+		<artifactId>shopping</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+	</dependencies>
+</project>
